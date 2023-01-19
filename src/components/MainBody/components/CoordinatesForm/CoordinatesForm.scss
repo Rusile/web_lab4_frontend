@@ -1,0 +1,45 @@
+.coordinates-form {
+
+  display: flex;
+  max-width: 540px;
+
+  .coordinates-form-fields {
+
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+
+    .coordinates-form-fields-y-field {
+      width: 96%;
+    }
+
+    .coordinates-form-fields-x-radio, .coordinates-form-fields-r-radio {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+  }
+
+  .coordinates-form-buttons {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .coordinates-form-buttons-check, .coordinates-form-buttons-reset {
+      width: 100px;
+    }
+
+  }
+
+  .coordinate-form-error-alert {
+    width: 100%;
+    background-color: var(--error);
+  }
+
+}

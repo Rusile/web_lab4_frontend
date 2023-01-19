@@ -1,0 +1,14 @@
+.data-grid {
+  height: 319px;
+  max-width: 1006px;
+  width: 1006px;
+  min-width: 350px;
+  border-radius: 4px;
+  background-color: var(--secondary-background);
+  transition: 0.3s;
+  flex: 1 1 auto;
+
+  &:hover {
+    box-shadow: 0 0 5px 0 var(--primary-text);
+  }
+}

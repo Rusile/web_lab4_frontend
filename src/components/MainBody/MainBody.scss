@@ -1,0 +1,32 @@
+.main-body {
+
+  display: flex;
+  flex-direction: column;
+
+
+  .main-body-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .main-body-inputs-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-body-data-table {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+  }
+
+  .footer-helper {
+    min-height: 50px;
+    max-height: 50px;
+  }
+
+}
